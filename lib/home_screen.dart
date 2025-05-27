@@ -20,14 +20,14 @@ class _HomeScreenState extends State<HomeScreen> {
         title: Text(
           "Dicee",
           style: TextStyle(
-              color: Colors.white,
+              color: Colors.black,
               fontFamily: 'Raleway',
               fontWeight: FontWeight.w900,
               fontSize: 30.0),
         ),
-        backgroundColor: Colors.red[500],
+        backgroundColor: Colors.lightGreenAccent,
       ),
-      backgroundColor: Colors.red[500],
+      backgroundColor: Colors.lightGreenAccent,
       body: Center(
         child: SingleChildScrollView(
           child: Column(
